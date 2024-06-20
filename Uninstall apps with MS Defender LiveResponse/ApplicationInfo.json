@@ -1,0 +1,28 @@
+[
+    {
+        "ApplicationName": "Mozilla Firefox",
+        "MinimumVersion": "121.0.0.0",
+        "VendorName": "Mozilla",
+        "UninstallString": "C:\\Users\\*\\AppData\\Local\\Mozilla Firefox\\uninstall\\helper.exe",
+        "Parameter": [
+            "/s"
+        ],
+        "CodeSigningSubject": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=Mountain View, S=California, C=US"
+    },
+	{
+        "ApplicationName": "Google Chrome",
+        "MinimumVersion": "120.0.699.71",
+        "VendorName": "Google",
+        "UninstallString": "C:\\Users\\*\\AppData\\Local\\Google\\Chrome\\Application\\*\\Installer\\setup.exe",
+        "Parameter": [
+            "--uninstall",
+			"-force-uninstall"
+        ],
+        "CodeSigningSubject": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US"
+    },
+    {
+        "ApplicationName": "Python",
+        "MinimumVersion": "3.7.17.0",
+        "VendorName": "Python Software Foundation"
+    }
+]
